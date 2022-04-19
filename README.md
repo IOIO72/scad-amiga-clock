@@ -1,8 +1,6 @@
 # Amiga Clock (3 June 2021)
 by IOIO72 aka Tamio Patrick Honma (https://honma.de)
 
-This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
-
 ## Description
 
 Amiga Clock is an adaptation of Clock V2.15 from Amiga Workbench 1.2.
@@ -14,24 +12,25 @@ The model is customizable and can be adapted to any clockwork and size - down to
 For those, who don't want to create a customized version, here's the clockwork, I used for this project:
 https://www.amazon.de/gp/product/B08RNJ5SYK/
 
+![Amiga Clock](20210604_154402.jpg)
+![Amiga Clock](20210604_154412.jpg)
+
 ### Where's the second hand?
 
 Since the second hand has a small pin for mounting, it is not easy to print one that is accurate enough. The purchasable clockwork packages usually include a variety of hands from which you can choose. There should definitely be a second hand that is just a dash, like the one on the Amiga Clock. Use this second hand and paint it orange.
 
 ### Use OpenSCAD
 
-As the Thingiverse customizer has some issues. It's better to use OpenSCAD instead.
-
 1. **Download and install:** [OpenSCAD](http://openscad.org/) version 2021.01 or newer
 2. **Download:** The *.scad file of this model.
 3. **Start** OpenSCAD and **open** the *.scad file in it.
 4. **Open the customizer** via the menu "Window/Customizer"
 
-Now you can configure the model.
+Now you can configure the model and use the `F5` key to render the preview of your changes.
 
 #### Export your STL file
 
-If you're done with your labelling tag settings, you can export the STL file:
+If you're done with your model settings, you can export the STL file:
 
 1. Render the mesh by pressing the `F6` key.
 2. Wait until the rendering is finished. This might take some minutes.
@@ -45,6 +44,7 @@ If you like to use your configuration as a template for further models, it's a g
 2. Give your configuration a name.
 
 Use the drop-down menu to access your saved configurations.
+
 
 ### Trivia
 
@@ -134,3 +134,22 @@ Depending on your plan, how to attach the parts of the clock together, you can s
 * If you like to use **white filament** for the clock face base and **black filament** for the clock face content on a single extruder printer, you can export them separately and glue them together.
 * If you like to export a **static version** of the clock,  **disable** `fastening_elements`, set your desired time in `clock_time_hour` and `clock_time_minute` and export **all parts together**.
 
+
+# Mount the Clock
+
+## Use test parts
+
+To verify your measurements and the print settings, use the test parts.
+
+![Use test parts](20210601_205304.jpg)
+![Use test parts](20210601_170708.jpg)
+
+## Attach parts
+
+![Attach parts](20210603_143343.jpg)
+![Attach parts](20210603_143351.jpg)
+![Attach parts](20210603_113743.jpg)
+![Attach parts](20210603_113823.jpg)
+![Attach parts](20210603_113949.jpg)
+![Attach parts](20210603_114022.jpg)
+![Attach parts](20210604_154056.jpg)
